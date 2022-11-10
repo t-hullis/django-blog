@@ -135,6 +135,13 @@ STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 STATICFILES_DIRS =[os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os .path.join(BASE_DIR, 'staticfiles')
 
+CLOUDINARY_STORAGE = {
+      'CLOUD_NAME': 'dcoqehbji',  
+      'API_KEY': '448937179916337',  
+      'API_SECRET': 'HUBK-bZl2XgQljlB_KDJWr7igvM',
+    #   'api_proxy': 'http://proxy.server:3128'
+}
+
 MEDIA_URL = '/media/'
 DEFULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
